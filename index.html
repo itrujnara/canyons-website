@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>canyons-website</title>
+  </head>
+  <body class="bg-blue min-h-screen w-screen max-w-full">
+    <!-- disclaimer -->
+    <div
+      class="bg-crimson text-medium flex h-fit w-full snap-start flex-row items-center justify-center px-4 py-2"
+    >
+      <p>
+        Website for educational purposes only.
+        <button
+          command="show-modal"
+          commandfor="disclaimer"
+          class="cursor-pointer underline"
+        >
+          Read more
+        </button>
+      </p>
+      <dialog
+        id="disclaimer"
+        class="top-[45%] mx-auto h-fit w-fit max-w-40 p-4 text-justify lg:max-w-80"
+      >
+        This website is published for educational purposes only. None of the
+        goods or services described are available for purchase. Nothing in this
+        website should be understood as an offer. The author makes no
+        intellectual property or other claims to any buildings mentioned. All
+        contact details are fictitious and should not be used.
+        <br />
+        <button
+          command="close"
+          commandfor="disclaimer"
+          class="cursor-pointer px-1 text-xl outline"
+        >
+          OK
+        </button>
+      </dialog>
+    </div>
+    <!-- blue section -->
+    <div
+      id="mission"
+      class="section before:bg-blue bg-blue text-light z-0 justify-start lg:justify-end"
+    >
+      <!-- header -->
+      <div class="header-wrapper text-light">
+        <div class="header">
+          <h1>
+            <a href="#top">H&T Construction</a>
+          </h1>
+          <nav>
+            <a href="#mission">Our mission</a>
+            <span>·</span>
+            <a href="#services">Our services</a>
+            <span>·</span>
+            <a href="#projects">Projects</a>
+            <span>·</span>
+            <a href="#contact">Contact us</a>
+            <span>·</span>
+            <a href="#careers">Join us</a>
+          </nav>
+        </div>
+      </div>
+      <!-- content -->
+      <div class="content-block content-right">
+        <h2>Our mission</h2>
+        <p>
+          We are H&T Construction. Combining extraordinary talent with
+          cutting-edge technology, we work on the greatest construction projects
+          in America to create a better future. We are committed to workplace
+          safety, transparency, and environmental and social sustainability.
+        </p>
+      </div>
+      <!-- decal -->
+      <div class="decal-wrapper decal-wrapper-left">
+        <!-- front face -->
+        <div
+          class="bg-light absolute right-0 bottom-0 -left-5 mx-auto h-40 w-40 lg:left-40 lg:mx-0 lg:h-80 lg:w-80 xl:left-80"
+        ></div>
+        <!-- side face -->
+        <div
+          class="bg-medium absolute right-0 bottom-0 -left-5 mx-auto h-40 w-40 translate-x-20 -translate-z-20 rotate-y-90 lg:left-40 lg:mx-0 lg:h-80 lg:w-80 lg:translate-x-40 lg:-translate-z-40 xl:left-80"
+        ></div>
+        <!-- front roof -->
+        <div
+          class="border-b-dark roof-front absolute right-0 bottom-40 -left-5 mx-auto h-0 w-0 border-r-[5rem] border-b-[10rem] border-l-[5rem] border-r-transparent border-l-transparent lg:bottom-80 lg:left-40 lg:mx-0 lg:border-r-[10rem] lg:border-b-[20rem] lg:border-l-[10rem] xl:left-80"
+        ></div>
+        <!-- side roof -->
+        <div
+          class="border-b-crimson roof-side absolute right-0 bottom-40 -left-5 mx-auto h-0 w-0 border-r-[5rem] border-b-[10rem] border-l-[5rem] border-r-transparent border-l-transparent lg:bottom-80 lg:left-40 lg:mx-0 lg:border-r-[10rem] lg:border-b-[20rem] lg:border-l-[10rem] xl:left-80"
+        ></div>
+      </div>
+    </div>
+    <!-- light section -->
+    <div id="services" class="section bg-light text-dark z-10 justify-start">
+      <!-- header -->
+      <div class="header-wrapper">
+        <div class="header">
+          <h1>
+            <a href="#top">H&T Construction</a>
+          </h1>
+          <nav>
+            <a href="#mission">Our mission</a>
+            <span>·</span>
+            <a href="#services">Our services</a>
+            <span>·</span>
+            <a href="#projects">Projects</a>
+            <span>·</span>
+            <a href="#contact">Contact us</a>
+            <span>·</span>
+            <a href="#careers">Join us</a>
+          </nav>
+        </div>
+      </div>
+      <!-- content -->
+      <div class="content-block content-left">
+        <h2>Our services</h2>
+        <p>
+          We offer services for each stage of the construction process,
+          including:
+        </p>
+        <ul class="list-disc text-lg">
+          <li>Construction planning, budgeting, procurement</li>
+          <li>Safety management and auditing</li>
+          <li>Construction and contractor management</li>
+          <li>Quality management and assurance</li>
+        </ul>
+      </div>
+      <!-- decal -->
+      <div class="decal-wrapper decal-wrapper-right">
+        <!-- front face -->
+        <div
+          class="bg-medium absolute -right-5 bottom-0 left-0 mx-auto h-60 w-60 lg:right-20 lg:left-auto lg:mx-0 lg:h-120 lg:w-120 xl:right-40"
+        >
+          <!-- windows -->
+          <div
+            class="bg-dark absolute my-6 ml-6 h-full w-12 lg:my-12 lg:ml-12 lg:w-24"
+          ></div>
+          <div
+            class="bg-dark absolute right-0 left-0 mx-auto my-6 h-full w-12 lg:my-12 lg:w-24"
+          ></div>
+          <div
+            class="bg-dark absolute right-0 left-auto my-6 mr-6 h-full w-12 lg:my-12 lg:mr-12 lg:w-24"
+          ></div>
+        </div>
+        <!-- side face -->
+        <div
+          class="bg-dark absolute -right-5 bottom-0 left-0 mx-auto h-60 w-40 -translate-x-30 -translate-z-20 rotate-y-90 lg:right-20 lg:left-auto lg:mx-0 lg:h-120 lg:w-80 lg:-translate-x-80 lg:-translate-z-40 xl:right-40"
+        ></div>
+      </div>
+    </div>
+    <!-- dark section -->
+    <div
+      id="projects"
+      class="section bg-dark text-deep z-20 justify-start lg:justify-end"
+    >
+      <!-- header -->
+      <div class="header-wrapper">
+        <div class="header">
+          <h1>
+            <a href="#top">H&T Construction</a>
+          </h1>
+          <nav>
+            <a href="#mission">Our mission</a>
+            <span>·</span>
+            <a href="#services">Our services</a>
+            <span>·</span>
+            <a href="#projects">Projects</a>
+            <span>·</span>
+            <a href="#contact">Contact us</a>
+            <span>·</span>
+            <a href="#careers">Join us</a>
+          </nav>
+        </div>
+      </div>
+      <!-- content -->
+      <div class="content-block content-right">
+        <h2>Projects</h2>
+        <p>Our notable construction projects include:</p>
+        <ul>
+          <li>John C. Marshall Memorial Center, Richmond, VA</li>
+          <li>Southern University Hospital, Baton Rouge, LA</li>
+          <li>Riverside Office Park, Portland, OR</li>
+          <li>AT&T Stadium, Winnipeg, MB</li>
+          <li>Railway Tower, Liverpool, UK</li>
+        </ul>
+      </div>
+      <!-- decal -->
+      <div class="decal-wrapper decal-wrapper-left">
+        <!-- right face -->
+        <div
+          class="skew-wall-right bg-crimson absolute right-0 bottom-0 -left-15 mx-auto h-60 w-40 lg:left-40 lg:mx-0 lg:h-120 lg:w-80 xl:left-60"
+        >
+          <!-- turret right face -->
+          <div
+            class="bg-crimson absolute right-0 bottom-full left-0 mx-auto aspect-square w-[33.3%]"
+          ></div>
+        </div>
+        <!-- left face -->
+        <div
+          class="skew-wall-left bg-deep absolute right-0 bottom-0 -left-15 mx-auto h-60 w-40 transform-3d lg:left-40 lg:mx-0 lg:h-120 lg:w-80 xl:left-60"
+        >
+          <!-- turret left face -->
+          <div
+            class="bg-deep absolute right-0 bottom-full mx-auto aspect-square w-[33.3%] translate-z-[-3.33rem] lg:translate-z-[-6.67rem]"
+          ></div>
+        </div>
+      </div>
+    </div>
+    <!-- crimson section -->
+    <div id="contact" class="section bg-crimson text-medium z-30 justify-start">
+      <!-- header -->
+      <div class="header-wrapper">
+        <div class="header">
+          <h1>
+            <a href="#top">H&T Construction</a>
+          </h1>
+          <nav>
+            <a href="#mission">Our mission</a>
+            <span>·</span>
+            <a href="#services">Our services</a>
+            <span>·</span>
+            <a href="#projects">Projects</a>
+            <span>·</span>
+            <a href="#contact">Contact us</a>
+            <span>·</span>
+            <a href="#careers">Join us</a>
+          </nav>
+        </div>
+      </div>
+      <!-- content -->
+      <div class="content-block content-left">
+        <h2>Contact us</h2>
+        <p>
+          We are always happy to discuss your project and find the right
+          solution. If you are interested in our services, contact
+          <span class="cursor-pointer underline"
+            >offers@htconstruction.com</span
+          >
+          .
+        </p>
+        <p>
+          For consultations and other inquiries, contact
+          <span class="cursor-pointer underline"
+            >consultant@htconstruction.com</span
+          >
+          .
+        </p>
+        <p>
+          You can also call us at
+          <span>(332) 123-1234</span>
+          Mo-Fri 9a-5p ET.
+        </p>
+      </div>
+      <!-- decal -->
+      <div class="decal-wrapper decal-wrapper-right">
+        <!-- front face -->
+        <div
+          class="bg-dark absolute -right-5 bottom-0 left-0 mx-auto h-40 w-60 lg:right-20 lg:left-auto lg:mx-0 lg:h-80 lg:w-120 xl:right-40"
+        >
+          <!-- windows -->
+          <div
+            class="bg-deep absolute my-20 ml-6 h-full w-6 lg:my-40 lg:ml-12 lg:w-12"
+          ></div>
+          <div
+            class="bg-deep absolute right-0 left-0 my-20 ml-18 h-full w-6 lg:my-40 lg:ml-36 lg:w-12"
+          ></div>
+          <div
+            class="bg-deep absolute right-0 left-auto my-20 mr-6 h-full w-12 lg:my-40 lg:mr-12 lg:w-24"
+          ></div>
+          <div
+            class="absolute top-4 right-0 left-0 h-12 w-full px-6 lg:top-8 lg:h-24 lg:px-12"
+          >
+            <div class="bg-deep h-full w-full"></div>
+          </div>
+        </div>
+        <!-- side face -->
+        <div
+          class="bg-deep absolute -right-5 bottom-0 left-0 mx-auto h-40 w-40 -translate-x-30 -translate-z-20 rotate-y-90 lg:right-20 lg:left-auto lg:mx-0 lg:h-80 lg:w-80 lg:-translate-x-80 lg:-translate-z-40 xl:right-40"
+        ></div>
+      </div>
+    </div>
+    <!-- deep section -->
+    <div
+      id="careers"
+      class="section bg-deep text-light z-30 justify-start lg:justify-end"
+    >
+      <!-- header -->
+      <div class="header-wrapper">
+        <div class="header">
+          <h1>
+            <a href="#top">H&T Construction</a>
+          </h1>
+          <nav>
+            <a href="#mission">Our mission</a>
+            <span>·</span>
+            <a href="#services">Our services</a>
+            <span>·</span>
+            <a href="#projects">Projects</a>
+            <span>·</span>
+            <a href="#contact">Contact us</a>
+            <span>·</span>
+            <a href="#careers">Join us</a>
+          </nav>
+        </div>
+      </div>
+      <!-- content -->
+      <div class="content-block content-right">
+        <h2>Careers</h2>
+        <p>
+          At H&T, we believe that every great project starts with people. We aim
+          to unite the best professionals in the country and provide them the
+          right environment to excel and grow. To browse current opportunities,
+          consult our
+          <span class="cursor-pointer underline">job portal</span>
+          .
+        </p>
+        <p>
+          No openings for your expertise? Send us your resume at
+          <span class="cursor-pointer underline"
+            >careers@htconstruction.com</span
+          >
+          and we will check how you can contribute to our team.
+        </p>
+      </div>
+      <!-- decal -->
+      <div class="decal-wrapper decal-wrapper-left">
+        <!-- front face -->
+        <div
+          class="bg-light absolute right-0 bottom-0 -left-5 mx-auto h-50 w-40 transform-3d lg:left-40 lg:mx-0 lg:h-100 lg:w-80 xl:left-60"
+        >
+          <!-- turret front -->
+          <div
+            class="bg-medium absolute right-0 bottom-full left-0 mx-auto aspect-square w-[50%] -translate-z-7.5 lg:-translate-z-15"
+          ></div>
+        </div>
+        <!-- side face -->
+        <div
+          class="bg-medium absolute right-0 bottom-0 -left-5 mx-auto h-50 w-30 translate-x-20 -translate-z-15 rotate-y-90 transform-3d lg:left-40 lg:mx-0 lg:h-100 lg:w-60 lg:translate-x-50 lg:-translate-z-30 xl:left-60"
+        >
+          <!-- turret side -->
+          <div
+            class="bg-dark absolute bottom-full left-[25%] h-20 w-[50%] -translate-z-10 lg:h-40 lg:-translate-z-20"
+          ></div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="bg-deep text-light h-fit w-full p-4">
+      <p class="mx-auto w-fit text-center">
+        © 2026 H&T Construction. Built with ♥ by Igor Trujnara.
+        <a href="https://github.com/itrujnara/canyons-website"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </p>
+    </div>
+  </body>
+  <script type="module" src="/src/main.ts"></script>
+  <script type="module" src="/src/scroll.ts"></script>
+</html>
