@@ -3,6 +3,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [tailwindcss()],
+  base: "/canyons-website/",
 });
-
-let base = "/canyons-website/";
