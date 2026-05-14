@@ -38,6 +38,7 @@ body {
 h1,
 h2 {
   @apply font-heavy;
+  word-spacing: 0.5rem;
 }
 
 h2 {
